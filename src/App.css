@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    border: 4px dashed blueviolet;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 15px;
+}

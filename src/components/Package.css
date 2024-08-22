@@ -1,0 +1,24 @@
+.package {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 100vh;
+    gap: 4px;
+    justify-content: center;
+}
+
+.no-display {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.refresh-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(222, 219, 219);
+}
+
+.refresh-button:hover {
+    cursor: pointer;
+}
